@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Simple Selectors</title>
+		<style>
+
+			h2 {
+				color: red;
+				text-align: center;
+			}
+
+			.highlight {
+				font-size: 20px;
+				font-weight: bold;
+				font-style: italic;
+				background-color: yellow;
+				opacity: .6; 
+			}
+
+			#mainPoint {
+			   font-size: 24px;
+			   font-weight: bold;
+			   background-color: red;
+			   opacity: .7; 
+			}
+
+			p, h1 {
+				color: blue;
+				text-align: center;
+			}
+
+		</style>
+	</head>
+	<body>
+		<h1>Simple Selectors h1</h1>
+		<h2>Subheading 1 (h2)</h2>
+		<p class="highlight">
+			You have met selectors already. A CSS selector is the first part of a CSS Rule. It is a pattern of elements and other terms that tell the browser which HTML elements should be selected to have the CSS property values inside the rule applied to them. The element or elements which are selected by the selector are referred to as the subject of the selector.
+		</p>
+		<p class="highlight">
+		   Paragraph with attribute class="highlight". <br>
+		   In CSS, selectors are used to target the HTML elements on our web pages that we want to style. There are a wide variety of CSS selectors available, allowing for fine-grained precision when selecting elements to style.
+		</p>
+		<h2>Subheading 2 (h2)</h2>
+		<p>
+		   In CSS, selectors are defined in the CSS Selectors specification; like any other part of CSS they need to have support in browsers for them to work. The majority of selectors that you will come across are defined in the Level 3 Selectors specification, which is a mature specification, therefore you will find excellent browser support for these selectors.
+		</p>
+		<div>This is the main point of the article. So, attribute
+			<span id="mainPoint">id="mainPoint"</span>
+		</div>
+	</body>
+</html>
